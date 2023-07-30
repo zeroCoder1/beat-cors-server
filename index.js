@@ -21,8 +21,5 @@ app.get('/jokes/random', (req, res) => {
   )
 });
 
-// const PORT = process.env.PORT || 3000;
-app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-  });
-// app.listen(PORT, () => console.log(`listening on ${PORT}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`listening on ${PORT}`));
