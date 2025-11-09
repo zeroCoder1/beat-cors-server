@@ -4,9 +4,7 @@
   "description": "A simple CORS proxy server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'No build step required for this Node.js app'",
-    "dev": "node index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=14.0.0"
